@@ -1,0 +1,21 @@
+{
+  "name": "freetracker",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI for tracking freelance expenses",
+  "type": "module",
+  "bin": {
+    "freetracker": "./bin/freetracker.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["freelance", "expense", "tracker", "cli", "nodejs"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayhanlimon/freetracker.git"
+  }
+}
